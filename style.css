@@ -73,3 +73,13 @@ section {
   width: 80%;       /* full horizontal width */
   height: auto;      /* maintain aspect ratio */
 }
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.modal-content {
+  border-radius: 12px;
+}
