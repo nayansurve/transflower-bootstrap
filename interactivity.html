@@ -22,9 +22,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+         <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+         <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
         <button class="btn btn-outline-light ms-3" data-bs-toggle="modal" data-bs-target="#contactModal">
   Contact Us
@@ -37,34 +37,37 @@
 <section id="products"> ... </section>
 <section id="about"> ... </section> -->
 <!-- Carousel -->
+
+<!-- Carousel -->
 <div id="storeCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
+
     <div class="carousel-item active">
-      <img src="https://via.placeholder.com/1200x400/ffb6c1/000000?text=Welcome+to+Transflower+Store" 
-           class="d-block w-100" alt="Slide 1">
+      <img src="images/i2.jpeg" class="d-block w-100" alt="Slide 1" style="height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block">
         <h5>Fresh Flowers Everyday</h5>
         <p>Explore nature’s beauty with us!</p>
       </div>
     </div>
+
     <div class="carousel-item">
-      <img src="https://via.placeholder.com/1200x400/ffe4b5/000000?text=Seasonal+Bouquets" 
-           class="d-block w-100" alt="Slide 2">
+      <img src="images/i3.jpeg" class="d-block w-100" alt="Slide 2" style="height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block">
         <h5>Seasonal Specials</h5>
         <p>Freshly handpicked for every occasion.</p>
       </div>
     </div>
+
     <div class="carousel-item">
-      <img src="https://via.placeholder.com/1200x400/90ee90/000000?text=Gift+Happiness+with+Flowers" 
-           class="d-block w-100" alt="Slide 3">
+      <img src="images/i4.jpeg" class="d-block w-100" alt="Slide 3" style="height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block">
         <h5>Gift Happiness</h5>
         <p>Send love wrapped in petals.</p>
       </div>
     </div>
+
   </div>
-  
+
   <button class="carousel-control-prev" type="button" data-bs-target="#storeCarousel" data-bs-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </button>
@@ -72,6 +75,7 @@
     <span class="carousel-control-next-icon"></span>
   </button>
 </div>
+
 <!-- Product Section -->
 <section class="py-5">
   <div class="container">
@@ -79,7 +83,7 @@
     <div class="row">
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Flower">
+          <img src="images/i5.jpeg" class="card-img-top" alt="Flower">
           <div class="card-body text-center">
             <h5 class="card-title">Red Roses</h5>
             <p class="card-text">Elegant bouquet for special moments.</p>
@@ -90,7 +94,7 @@
 
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Flower">
+          <img src="images/i6.jpeg" class="card-img-top" alt="Flower">
           <div class="card-body text-center">
             <h5 class="card-title">Tulip Delight</h5>
             <p class="card-text">Fresh tulips to brighten your day.</p>
@@ -101,7 +105,7 @@
 
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Flower">
+          <img src="images/i10.jpeg" class="card-img-top" alt="Flower">
           <div class="card-body text-center">
             <h5 class="card-title">Sunflower Joy</h5>
             <p class="card-text">Bring sunshine into your home.</p>
@@ -112,6 +116,7 @@
     </div>
   </div>
 </section>
+
 <!-- Contact Modal -->
 <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -140,26 +145,14 @@
     </div>
   </div>
 </div>
-<!-- Scroll-to-Top Button -->
-<button id="scrollTopBtn" class="btn btn-primary position-fixed bottom-0 end-0 m-4" style="display:none;">↑</button>
-
-<script>
-  const scrollBtn = document.getElementById("scrollTopBtn");
-  window.onscroll = () => {
-    if (document.documentElement.scrollTop > 200) {
-      scrollBtn.style.display = "block";
-    } else {
-      scrollBtn.style.display = "none";
-    }
-  };
-  scrollBtn.onclick = () => window.scrollTo({top: 0, behavior: 'smooth'});
-</script>
-
   <!-- Content will go here -->
+   <!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p class="mb-0">&copy; 2025 Transflower Store. All rights reserved.</p>
+</footer>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <footer class="bg-dark text-white text-center py-3">
-  <p class="mb-0">&copy; 2025 Transflower Store. All rights reserved.</p>
-</footer>
+</body>
+
 </html>
